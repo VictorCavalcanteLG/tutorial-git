@@ -1,5 +1,5 @@
 # Git Course
 
-este é um repositorio teste blblblb
+sitorio teste blblblb
 
 porra caralho parte 2
