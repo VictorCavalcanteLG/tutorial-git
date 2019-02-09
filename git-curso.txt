@@ -16,3 +16,21 @@ git config user.name
 git init
 
 
+==LOGS==
+git log
+git log --decorate
+git log --author="autor"
+git log shortlog
+git log shortlog -sn
+git log --graph
+
+==HASH==
+MOSTRA O QUE FOI ACRESCENTADO DE ACORDO COM A HASH
+git show *hash*
+
+==DIFF==
+MOSTRA AS MUDANÇAS
+git diff
+
+
+
