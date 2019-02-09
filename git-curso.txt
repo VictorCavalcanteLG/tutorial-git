@@ -1,0 +1,18 @@
+==CONFIGURAR NOME DE USUARIO==
+git config --global user.name "Victor Cavalcante"
+
+==CONFIGURAR E-MAIL==
+git config --global user.email "cavalcante.victor.l.g@gmail.com"
+
+==CONFIGURAR EDITOR PRINCIPAL==
+git config --global core.editor 'definir ainda'
+
+==SABER O VALOR DAS CHAVES==
+git config user.name
+	   user.email
+           --list
+
+==INICIALIZAR UM REPOSITORIO NO GIT==
+git init
+
+
