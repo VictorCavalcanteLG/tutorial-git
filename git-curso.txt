@@ -45,8 +45,24 @@ git reset --soft *HASH DO COMMIT ANTERIOR*
 VOLTA PRA ANTES DO STAGED
 git reset --mixes
 
-EXCLUI TODAS A MODIFICA<C7><D5>ES DO COMMIT
+EXCLUI TODAS A MODIFICAÇÕES DO COMMIT
 git reset --hard
+
+
+==REPOSITORIO REMOTO==
+ADICIONAR NOVO REPOSITORIO
+$ git remote add origin https://github.com/VictorCavalcanteLG/tutorial-git.git
+VER OS REPOSITORIOS
+git remote -v
+UPLOAD PRO REPOSITORIO
+git push -u origin master
+
+CLONAR O REPOSITORIO
+git clone *endereço do escolhido* *novo nome*
+
+
+
+
 
 
 
