@@ -31,6 +31,23 @@ git show *hash*
 ==DIFF==
 MOSTRA AS MUDANÇAS
 git diff
+git diff --name-only
+
+==RESETAR==
+CASO ESTEJA EM MODIFICADO E VOLTAR
+git checkout *arquivo*
+CASO ESTEJA ESTAGED -UNSTAGED
+git reset HEAD *arquivo*
+
+VOLTA PRA STAGED
+git reset --soft *HASH DO COMMIT ANTERIOR*
+
+VOLTA PRA ANTES DO STAGED
+git reset --mixes
+
+EXCLUI TODAS A MODIFICA<C7><D5>ES DO COMMIT
+git reset --hard
+
 
 
 
