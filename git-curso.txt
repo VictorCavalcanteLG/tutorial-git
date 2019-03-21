@@ -60,7 +60,42 @@ git push -u origin master
 CLONAR O REPOSITORIO
 git clone *endereço do escolhido* *novo nome*
 
+==BRANCH==
+CRIAR BRANCH
+git checkout -b *nome*
+git branch
+git checkout *nome do branch que quer mudar*
 
+APAGAR BRANCH
+git checkout -D *nome*
+
+
+==MERGE-REBASE==
+git merge *nome branch*
+git rebase *nome branch*
+
+==GIT STASH==
+git stash
+git stash apply
+git stash list
+git stash clear
+
+==ALIAS==
+git config --global alias.*abreviatura do comando*  *comando*
+
+==TAG==
+git tag -a 1.0.0 -m "*comentario*"
+git push origin master --tags
+
+==REVERT==
+git revert *hash do commit*
+
+==APAGAR TAG E BRANCH DO REPOSITORIO==
+APAGA LOCAL
+git tag -d *tag*
+NO REPOSITORIO
+git push origin :*tag*
+git push origin :*branch*
 
 
 
